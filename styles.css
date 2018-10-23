@@ -4,14 +4,14 @@ body {
 	color: #17252a;
 }
 
-ol.navbar {
+ul.navbar {
 	position: absolute;
 	top: 30px;
 	left: 0px;
 	width: 150px;
 }
 
-ol.navbar li {
+ul.navbar li {
   margin: 2px 0;
   padding: 2px;
   border-right: 1px solid #17252a;
@@ -20,7 +20,7 @@ ol.navbar li {
   border-bottom: 1px solid #17252a;
 }
 
-ol.navbar a {
+ul.navbar a {
   text-decoration: none
 }
 
