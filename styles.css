@@ -1,0 +1,33 @@
+body {
+	margin-left: 200px;
+	background-color: #bdd8ed;
+	color: #17252a;
+}
+
+ol.navbar {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 150px;
+}
+
+ol.navbar li {
+  margin: 2px 0;
+  padding: 2px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 10px solid #17252a;
+  border-bottom: 1px solid #17252a;
+}
+
+ol.navbar a {
+  text-decoration: none
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: yellow;
+}
