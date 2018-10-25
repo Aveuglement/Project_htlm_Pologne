@@ -4,15 +4,12 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<style>
-			#paragraph { color: #252d8f; }
-			#citation { color: #0175ee; }
-		</style>
+		
 	</head>
-	<body>
+	<body onload="init()">
 		<h1><font size="+4"><font size="arial"><b><i><center>Pale blue dot</center></i></b></font></font></h1>
 		<h2><center>"<i>The eternal silence of these infinite spaces frightens me.</i>" <u>Thoughts</u>, Blaise Pascal</center></h2>
-		<center><img src="ChateauCiel.jpg" height ="500" widht="460"></center>
+		<center><img src="ChateauCiel.jpg" height ="500" widht="460"/></center>
 		<p id="paragraph">This photo takes place in the movie <i>"Castle in the Sky"</i> by Hayao Miyasaki. Has you can see, there is a lot of greenery over there. I didn't choose this photo by random, in fact I love landscape like this, fully of animals, forests, plants, lakes, nature everywhere ...</p>
 		<p id="paragraph">Here is some <i>Miyazaki</i>'s movies that I recommand you to watch :</p>
 		
@@ -20,7 +17,6 @@
 			<li><a href="https://www.youtube.com/watch?v=ImPM5IDIYPs&list=PLJrkymb-Pon9EEoyUtHwoQfk8DHp8_h-O"><i>Spirited Away</i></a></li>
 			<li><a href="https://www.youtube.com/watch?v=HMGetv40FkI&list=PLwMYUUD-3q6sts2NfvvUNxUzoX0jJpeuO"><i>Howl's moving Castle</i></a></li>
 			<li><a href="https://www.youtube.com/watch?v=1L3bkiwU5XQ&list=PLr3ad8O9Qc1tHk-H02_EdeMxKby4pH9e9"><i>Princess Mononoke</i></a></li>
-			<li><a href="https://www.youtube.com/watch?v=mztpj06ykyQ&list=PLw62gNkVPTa89pfzaj40nZ0YcRIvVT2Vn"><i>Grave of the fireflies</i></a></li>
 			<li><a href="https://www.youtube.com/watch?v=klvUH-JWFQA&list=PLqc913d10gTPfGNqRtza37IYFKU2Wyh_t"><i>Nausicaä of the Valley of the Wind</i></a></li>
 		</ol>
 
@@ -38,7 +34,25 @@
 				<center><li><a href="https://www.youtube.com/watch?v=JV7kEaFh7PY"><i class="material-icons">play_arrow</i></a></li></center>
 			</ul>
 		</nav>
-		
-		
+		<script src="script.js"></script>
+		<button type="button" onclick="greet()">Ne cliquez pas ici</button>
+		<div id="task1">
+			<img src="car1.png"/>
+		</div>
+		<div id="task2">
+			<img src="flower1.png"/>
+			<img src="flower1.png"/>
+			<img src="flower1.png"/>
+			<img src="flower1.png"/>
+			<img src="flower1.png"/>
+		</div>
+		<div id="task3">
+			
+		</div>
+		<div>
+			<span id="new_element">
+				Here should appear our flower:
+			</span>
+</div>
 	</body>
 </html>

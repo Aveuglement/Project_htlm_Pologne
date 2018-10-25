@@ -4,6 +4,14 @@ body {
 	color: #012a56;
 }
 
+#paragraph {
+	color: #252d8f; 
+}
+
+#citation {
+	color: #0175ee; 
+}
+
 div.a {
 	text-align: justify;
 }
@@ -35,4 +43,8 @@ a:link {
 
 a:visited {
 	color: yellow;
+}
+
+button:hover {
+	border: 2px solid gold;
 }
