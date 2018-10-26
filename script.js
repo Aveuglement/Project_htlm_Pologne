@@ -14,5 +14,7 @@ function init() {
     images[3].src ="flower2.png";
 
     //      Task 3
+
+    //      Task 4
     let image = document.createElement("img");
 }
