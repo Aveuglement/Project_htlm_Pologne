@@ -31,6 +31,8 @@ ul.navbar li {
   	border-left: 10px solid #17252a;
   	border-bottom: 1px solid #17252a;
 	list-style-type: none;
+	text-align: center;
+
 }
 
 ul.navbar a {
@@ -47,4 +49,34 @@ a:visited {
 
 button:hover {
 	border: 2px solid gold;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;		
+}
+
+h2 {
+	text-align : center;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.animation {
+	-moz-transition: color 5s;
+	-webkit-transition: color 5s;
+	-o-transition: color 5s;
+    color: #663399;
+}
+.animation:hover {
+    color: #FFFF33;
 }
